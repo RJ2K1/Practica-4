@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBPractica4ModelStoreContainer" CdmEntityContainer="DBPractica4Entities5">
+    <EntitySetMapping Name="Abonos">
+      <EntityTypeMapping TypeName="DBPractica4Model.Abonos">
+        <MappingFragment StoreEntitySet="Abonos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="codCompra" ColumnName="codCompra" />
+          <ScalarProperty Name="abono" ColumnName="abono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Principal">
+      <EntityTypeMapping TypeName="DBPractica4Model.Principal">
+        <MappingFragment StoreEntitySet="Principal">
+          <ScalarProperty Name="codCompra" ColumnName="codCompra" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="saldo" ColumnName="saldo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
